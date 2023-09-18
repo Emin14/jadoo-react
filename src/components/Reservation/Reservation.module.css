@@ -1,0 +1,176 @@
+.wrapper {
+    display: flex;
+    text-align: start;
+    margin-bottom: 200px;
+    justify-content: space-between;
+}
+
+.subtitle {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0em;
+    color: rgba(94, 98, 130, 1);
+    margin-bottom: 15px;
+}
+
+.title {
+    font-family: 'Volkhov', serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 65px;
+    letter-spacing: 0em;
+    color: rgba(20, 24, 62, 1);
+    margin-bottom: 31px;
+    width: 511px;
+}
+
+.list {
+    width: 395px;
+    height: 289px;
+    border-radius: 13px;
+
+}
+
+.item {
+    display: flex;
+    column-gap: 21px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0em;
+    color: rgba(94, 98, 130, 1);
+    margin-bottom: 48px;
+}
+
+.itemTitle {
+    font-weight: 700;
+}
+
+.itemDescription {
+    font-weight: 400;
+}
+
+.rightBlock {
+    width: 485px;
+    height: 459px;
+    position: relative;
+}
+
+.card {
+    width: 370px;
+    height: 400px;
+    padding: 20px 25px;
+    box-shadow: 0px 100px 80px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 26px;
+    background: rgba(255, 255, 255, 1);
+    box-sizing: border-box;
+    margin-top: 59px;
+    margin-right: 44px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.cardImg {
+    margin-bottom: 26px;
+}
+
+.cardTitle {
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.015em;
+    margin-bottom: 13px;
+}
+
+.cardDate {
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -0.005em;
+    color: rgba(94, 98, 130, 1);
+    margin-bottom: 21px;
+}
+
+.cardIcon {
+    display: flex;
+    width: 139px;
+    column-gap: 15px;
+    margin-bottom: 30px;
+}
+
+.cardIcon span{
+    width: 36px;
+    height: 36px;
+    background-color: rgba(245, 245, 245, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.cardPeople {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cardPeople div{
+    display: flex;
+    column-gap: 15px;
+}
+
+.blue {
+    position: absolute;
+    width: 354px;
+    height: 367px;
+    opacity: 0.05;
+    top: -59px;
+    z-index: -1;
+    left: 60px;
+    background: rgba(89, 177, 230, 1);
+}
+
+.notification {
+    position: absolute;
+    bottom: 45px;
+    right: 15px;
+    width: 263px;
+    height: 129px;
+    display: flex;
+    column-gap: 12px;
+    padding: 18px;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0px 100px 80px 0px rgba(0, 0, 0, 0.08);
+    border-radius: 18px;
+    box-sizing: border-box;
+}
+
+.notificationImg img{
+    border-radius: 50px;
+}
+
+.ongoing {
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: -0.035em;
+    text-align: left;
+    color: rgba(132, 130, 154, 1);
+    margin-bottom: 6px;
+}
+
+.trip {
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: -0.015em;
+    color: rgba(8, 8, 9, 1);
+    margin-bottom: 14px;
+}
+
+.completed {
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: -0.055em;
+}
+
+.interest {
+    color: #8A79DF
+}

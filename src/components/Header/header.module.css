@@ -1,0 +1,57 @@
+.header {
+    display: flex;
+    margin: 47px 0 18px 0;
+    position: relative;
+    left: 7px;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 22px;
+    font-size: 17px;
+    color: rgba(33, 40, 50, 1);
+}
+
+.list {
+    display: flex;
+    column-gap: 60px;
+    margin-right: 86px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.account {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+
+    background-color: inherit;
+    cursor: pointer;
+}
+
+.signup {
+    padding: 9px 22px;
+    border: 1px solid rgba(33, 40, 50, 1);
+    border-radius: 5px;
+    margin-right: 42px;
+}
+
+.login {
+    border: none;
+    margin-right: 52px;
+}
+
+.logo {
+    margin-right: 220px;
+}
+
+.select {
+    background-color: inherit;
+    border: none;  
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    outline: none;
+}

@@ -1,0 +1,151 @@
+.wrapper {
+    display: flex;
+
+}
+
+.leftBlock {
+    width: 420px;
+    padding: 115px 0;
+    text-align: start;
+}
+
+.bannerText {
+    width: 630px;
+    height: 535px;
+    position: absolute;
+}
+
+.subtitle {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0em;
+    color: #DF6951;
+    margin-bottom: 24px;
+}
+
+.title {
+    font-family: 'Volkhov', serif;
+    font-size: 84px;
+    font-weight: 700;
+    line-height: 89px;
+    letter-spacing: -0.04em;
+    margin-bottom: 30px;
+}
+
+.titleWrapper {
+    position: relative;
+}
+
+.text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    margin-bottom: 34px;
+    width: 477px;
+}
+
+.rightBlock {
+    position: relative;
+}
+
+.traveller {
+    position: relative;
+    z-index: 1;
+}
+
+.airplane1, .airplane2 {
+    position: absolute;
+}
+
+.airplane1 {
+    top: 55px;
+    left: 160px;
+}
+
+.airplane2 {
+    top: 100px;
+    right: 10px;
+}
+
+.play {
+    display: flex;
+    align-items: center;
+}
+
+.moreBtn {
+    padding: 19px 26px;
+    background: rgba(241, 165, 1, 1);
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0em;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 20px 35px 0px rgba(241, 165, 1, 0.15);
+    margin-right: 44px;
+    cursor: pointer;
+}
+
+.playBtn {
+ width: 52px;
+ height: 52px;
+ background: rgba(223, 105, 81, 1);
+ box-shadow: 0px 15px 30px 0px rgba(223, 105, 81, 0.3);
+ border-radius: 50%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ display: inline-flex;
+ margin-right: 21px;
+ border: none;
+ cursor: pointer;
+}
+
+.vector {
+    position: absolute;
+    top: 70px;
+    right: 10px;
+    z-index: -1;
+}
+
+.demo {
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0em;
+    color: rgba(104, 109, 119, 1);
+
+}
+
+
+.popup {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(164, 162, 160, 0.5);
+    /* opacity: 0.5; */
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 5;
+}
+
+.active {
+  display: flex;
+}
+
+.modal{
+    /* width: 450px;
+    height: 300px;
+    background-color: white;
+    border-radius: 20px; */
+}
