@@ -1,4 +1,3 @@
-import React from 'react'
 import microphone from '../../assets/img/microphone.svg'
 import plane from '../../assets/img/plane.svg'
 import power from '../../assets/img/power.svg'
@@ -36,7 +35,7 @@ export default function Services() {
         <div>
             <ul className={styles.list}>
                 {data.map(item => (
-                    <li className={styles.item}>
+                    <li key={item.img} className={styles.item}>
                         <div className={styles.imageWrapper}>
                             <img src={item.img} alt="" />
                         </div>

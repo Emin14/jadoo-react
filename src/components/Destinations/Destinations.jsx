@@ -1,4 +1,3 @@
-import React from 'react'
 import styles from './Destinations.module.css'
 import rectangle14 from '../../assets/img/Rectangle14.svg'
 import rectangle15 from '../../assets/img/Rectangle15.svg'
@@ -29,13 +28,13 @@ export default function Destinations() {
         },
     ]
 
-  return (
-    <div className={styles.destinations}>
-        <h5 className={styles.subtitle}>Top Selling</h5>
-        <h3 className={styles.title}>Top Destinations</h3>
-        <ul className={styles.list}>
+    return (
+        <div className={styles.destinations}>
+            <h5 className={styles.subtitle}>Top Selling</h5>
+            <h3 className={styles.title}>Top Destinations</h3>
+            <ul className={styles.list}>
                 {data.map(item => (
-                    <li className={styles.item}>
+                    <li key={item.img} className={styles.item}>
                         <div className={styles.imageWrapper}>
                             <img className={styles.img} src={item.img} alt="" />
                         </div>
@@ -51,8 +50,8 @@ export default function Destinations() {
                         </div>
                     </li>
                 ))}
-                <img src={decore} className={styles.decore}/>
+                <img src={decore} className={styles.decore} />
             </ul>
-    </div>
-  )
+        </div>
+    )
 }

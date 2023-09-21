@@ -5,6 +5,10 @@ import Decore from './components/Decore/Decore';
 import Services from './components/Services/Services';
 import Destinations from './components/Destinations/Destinations';
 import Reservation from './components/Reservation/Reservation';
+import Testimonials from './components/Testimonials/Testimonials';
+import Brands from './components/Brands/Brands';
+import Subscribe from './components/Subscribe/Subscribe';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -16,7 +20,11 @@ function App() {
         <Services/>
         <Destinations/>
         <Reservation/>
+        <Testimonials/>
+        <Brands/>
+        <Subscribe/>
       </main>
+      <Footer/>
     </div>
   );
 }

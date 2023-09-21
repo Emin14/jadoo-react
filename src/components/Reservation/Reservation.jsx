@@ -1,4 +1,3 @@
-import React from 'react'
 import styles from './Reservation.module.css'
 import group11 from '../../assets/img/Group11.svg'
 import group12 from '../../assets/img/Group12.svg'
@@ -39,7 +38,7 @@ export default function Reservation() {
         <h3 className={styles.title}>Book your next trip in 3 easy steps</h3>
         <ul className={styles.list}>
                 {data.map(item => (
-                    <li className={styles.item}>
+                    <li key={item.img} className={styles.item}>
                         <div className={styles.imageWrapper}>
                             <img className={styles.img} src={item.img} alt="" />
                         </div>

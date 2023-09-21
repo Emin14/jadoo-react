@@ -30,6 +30,13 @@
     position: relative;
     box-shadow: 0px 100px 80px 0px rgba(0, 0, 0, 0.08);
     border-radius: 0 0 24px 24px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.item:hover {
+    transform: scale(1.1, 1.1);
+    transition: 0.3s;
 }
 
 .img {
@@ -49,7 +56,6 @@
 
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
-    box-sizing: border-box;
     background-color: rgba(255, 255, 255, 1);
 
     text-align: start;

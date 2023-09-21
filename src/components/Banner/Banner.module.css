@@ -132,7 +132,6 @@
     top: 0;
     left: 0;
     background-color: rgba(164, 162, 160, 0.5);
-    /* opacity: 0.5; */
     display: none;
     justify-content: center;
     align-items: center;
@@ -143,9 +142,3 @@
   display: flex;
 }
 
-.modal{
-    /* width: 450px;
-    height: 300px;
-    background-color: white;
-    border-radius: 20px; */
-}

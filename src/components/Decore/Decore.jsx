@@ -1,4 +1,3 @@
-import React from 'react'
 import decore from '../../assets/img/Decore.svg'
 import styles from './Decore.module.css'
 

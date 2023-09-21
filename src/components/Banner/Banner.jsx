@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import traveller from '../../assets/img/Traveller.svg'
 import airplane from '../../assets/img/Airplane.svg'
 import playButton from '../../assets/img/Polygon1.svg'
@@ -10,11 +10,6 @@ export default function Banner(){
   const [show, setShow] = useState(false)
 
   const playVideo = (e) => {
-    if(e.target.nodeName === "IMG") {
-      console.log('bp')
-
-}
-
     setShow(prev => !prev)
     if(e.target.nodeName === "DIV") {
       const src = e.target.children[0].children[0].src
@@ -54,7 +49,7 @@ export default function Banner(){
             <iframe width="560" height="315" 
               src="https://www.youtube.com/embed/dQw4w9WgXcQ?si=eYk-X8F-Rt-3Jegp" 
               title="YouTube video player" 
-              frameborder="0" 
+              frameBorder="0" 
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
               allowfullscreen>
             </iframe>
