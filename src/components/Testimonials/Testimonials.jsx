@@ -8,7 +8,7 @@ import { A11y, EffectCards } from 'swiper/modules';
 
 import SwiperNavButtons from '../SwiperNavButtons/SwiperNavButtons';
 
-import mike from '../../assets/img/Mike.svg';
+import mike from '../../assets/img/Mike.jpg';
 import tagiev from '../../assets/img/tagiev.jpg';
 
 import styles from './Testimonials.module.css';

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 import { useTranslation } from 'react-i18next';
-import traveller from '../../assets/img/Traveller.svg';
+import traveller from '../../assets/img/Traveller.jpg';
 import airplane from '../../assets/img/Airplane.svg';
 import playButton from '../../assets/img/Polygon1.svg';
 import vector from '../../assets/img/Vector.svg';

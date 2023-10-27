@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next';
 import styles from './Destinations.module.css';
 import rectangle14 from '../../assets/img/Rectangle14.svg';
 import rectangle15 from '../../assets/img/Rectangle15.svg';
-import rectangle16 from '../../assets/img/Rectangle16.svg';
+import rectangle16 from '../../assets/img/Rectangle16.jpg';
 import navigation from '../../assets/img/Navigation.svg';
 import decore from '../../assets/img/Decore2.svg';
 
