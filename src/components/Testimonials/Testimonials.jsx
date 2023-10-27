@@ -4,17 +4,15 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/effect-cards';
 import { useTranslation } from 'react-i18next';
+import { A11y, EffectCards } from 'swiper/modules';
 
 import SwiperNavButtons from '../SwiperNavButtons/SwiperNavButtons';
-
-import { A11y, EffectCards } from 'swiper/modules';
 
 import mike from '../../assets/img/Mike.svg';
 import tagiev from '../../assets/img/tagiev.jpg';
 
 import styles from './Testimonials.module.css';
 import './index.css';
-
 
 export default function Testimonials() {
   const { t } = useTranslation();
