@@ -1,12 +1,13 @@
 import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { A11y, EffectCards } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/effect-cards';
 import { useTranslation } from 'react-i18next';
 
 import SwiperNavButtons from '../SwiperNavButtons/SwiperNavButtons';
+
+import { A11y, EffectCards } from 'swiper/modules';
 
 import mike from '../../assets/img/Mike.svg';
 import tagiev from '../../assets/img/tagiev.jpg';
