@@ -1,66 +1,60 @@
-import styles from './Footer.module.css'
-import instagram from '../../assets/img/Social-media/instagram1.svg'
-import facebook from '../../assets/img/Social-media/Facebook.svg'
-import twitter from '../../assets/img/Social-media/twitter.svg'
-import apple from '../../assets/img/apple.svg'
-import google from '../../assets/img/google-play.svg'
+import React from 'react';
+import { useTranslation } from 'react-i18next';
+import styles from './Footer.module.css';
+import instagram from '../../assets/img/Social-media/instagram1.svg';
+import facebook from '../../assets/img/Social-media/Facebook.svg';
+import twitter from '../../assets/img/Social-media/twitter.svg';
+import apple from '../../assets/img/apple.svg';
+import google from '../../assets/img/google-play.svg';
 
 export default function Footer() {
+  const { t } = useTranslation();
+  const data = t('footer.data', { returnObjects: true });
+
   return (
     <div className={styles.wrapper}>
-        <div className={styles.blocks}>
-            <div>
-                <a className={styles.title} href="">Jadoo.</a>
-                <p className={styles.subtitle}>Book your trip in minute, get full Control for much longer.</p>
-            </div>
-            <ul className={styles.list}>
-                <li>Company</li>
-                <li>About</li>
-                <li>Careers</li>
-                <li>Mobile</li>
-            </ul>
-            <ul className={styles.list}>
-                <li>Contact</li>
-                <li>Help/FAQ</li>
-                <li>Press</li>
-                <li>Affilates</li>
-            </ul>
-            <ul className={styles.list}>
-                <li>More</li>
-                <li>Airlinefees</li>
-                <li>Airline</li>
-                <li>Low fare tips</li>
-            </ul>
-            <div>
-                <div className={styles.socials}>
-                    <span className={styles.facebook}><img src={facebook} alt="" /></span>
-                    <span className={styles.instagram}><img src={instagram} alt="" /></span>
-                    <span className={styles.twitter}><img src={twitter} alt="" /></span>
-                </div>
-                <p className={styles.socialsText}>Discover our app</p>
-                <div className={styles.stores}>
-                    <a href="">
-                        <div className={styles.store}>
-                            <img className={styles.google} src={google} alt="" />
-                            <div>
-                                <p>Get in on</p>
-                                <p>Google play</p>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="">
-                        <div className={styles.store}>
-                        <img className={styles.apple} src={apple} alt="" />
-                            <div>
-                                <p>Avaible on the</p>
-                                <p>Apple store</p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
+      <div className={styles.blocks}>
+        <div>
+          <p className={styles.title}>Jadoo.</p>
+          <p className={styles.subtitle}>{t('footer.subtitle')}</p>
         </div>
-        <p className={styles.copyright}>All rights reserved@jadoo.co</p>
+        {data.map((item) => (
+          <div key={item.title}>
+            <h3 className={styles.listTitle}>{item.title}</h3>
+            <ul>
+              {item.list.map((el) => (
+                <li key={el} className={styles.item}>{el}</li>
+              ))}
+            </ul>
+          </div>
+        ))}
+
+        <div>
+          <div className={styles.socials}>
+            <span className={styles.facebook}><img src={facebook} alt="" /></span>
+            <span className={styles.instagram}><img src={instagram} alt="" /></span>
+            <span className={styles.twitter}><img src={twitter} alt="" /></span>
+          </div>
+          <p className={styles.socialsText}>{t('footer.socialsText')}</p>
+          <div className={styles.stores}>
+            <div className={styles.store}>
+              <img className={styles.google} src={google} alt="" />
+              <div>
+                <p>{t('footer.google')}</p>
+                <p>Google play</p>
+              </div>
+            </div>
+            <div className={styles.store}>
+              <img className={styles.apple} src={apple} alt="" />
+              <div>
+                <p>{t('footer.apple')}</p>
+                <p>Apple store</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p className={styles.copyright}>{t('footer.copyright')}</p>
     </div>
-  )
+  );
 }

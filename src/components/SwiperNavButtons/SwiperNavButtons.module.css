@@ -1,0 +1,38 @@
+.swiperNavBtns button {
+background-color: inherit;
+border: none;
+    width: 60px;
+    height: 50px;
+    /* border-radius: 50px; */
+    /* border: none;
+    outline: none; */
+    /* background-color: hsl(210, 100%, 50%); */
+    /* color: #fff; */
+    /* margin: 0px 0.5rem; */
+    /* box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5); */
+    /* margin-top: 30px; */
+    /* transition: all .5s; */
+  }
+  
+  .swiperNavBtns button:hover {
+    /* background-color: hsl(210, 100%, 40%); */
+    cursor: pointer;
+  }
+
+.prev {
+  position: absolute;
+  right: 0;
+  top: 50%;
+}
+
+.next {
+  position: absolute;
+  right: 0;
+  bottom: 15%;
+  background-color: blue;
+}
+
+
+button:hover path{
+  stroke: #0c0c0c;
+}

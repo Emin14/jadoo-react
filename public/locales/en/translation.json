@@ -1,0 +1,137 @@
+{
+    "title": "Welcome to react using react-i18next",
+
+    "menu-list": ["Desitnations", "Hotels", "Flights", "Bookings"],
+    "login": "Login",
+    "sign-up": "Sign up",
+    "banner": {
+        "subtitle": "Best Destinations around the world",
+        "title": "Travel, enjoy and live a new and full life",
+        "text": "Built Wicket longer admire do barton vanity itself do in it. Preferred to sportsmen it engrossed listening. Park gate sell they west hard for the.",
+        "more": "Find out more",
+        "demo": "Play Demo"
+      },
+      "services": {
+        "category": "Category",
+        "offer": "We Offer Best Services",
+        "data": [
+            {
+                "id": 0,
+                "title": "Calculated Weather",
+                "description": "Built Wicket longer admire do barton vanity itself do in it."
+            },
+            {
+                "id": 1,
+                "title": "Best Flights",
+                "description": "Engrossed listening. Park gate sell they west hard for the."
+            },
+            {
+                "id": 2,
+                "title": "Local Events",
+                "description": "Barton vanity itself do in it. Preferd to men it engrossed listening. "
+            },
+            {
+                "id": 3,
+                "title": "Customization",
+                "description": "We deliver outsourced aviation services for military customers"
+            }
+        ]
+    },
+    "destinations": {
+      "subtitle": "Top Selling",
+      "title": "Top Destinations",
+      "data": [
+        {
+            "id": 0,
+            "place": "Rome, Italty",
+            "price": 5.42,
+            "days": 10
+        },
+        {
+            "id": 1,
+            "place": "London, UK",
+            "price": 4.2,
+            "days": 12
+        },
+        {
+            "id": 2,
+            "place": "Full Europe",
+            "price": 15,
+            "days": 28
+        }
+    ],
+    "days": "Days Trip"
+    },
+    "reservation": {
+        "subtitle": "Easy and Fast",
+        "title": "Book your next trip in 3 easy steps",
+        "data": [
+            {
+                "id": 0,
+                "title": "Choose Destination",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus. "
+            },
+            {
+                "id": 1,
+                "title": "Make Payment",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus. "
+            },
+            {
+                "id": 2,
+                "title": "Reach Airport on Selected Date",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus. "
+            }
+        ],
+      "trip": "Trip To Greece",
+      "month": "June",
+      "author": "by Robbin joseph",
+      "people": "people going",
+      "status": "Ongoing",
+      "name": "Trip to rome",
+      "completed": "completed"
+      },
+      "testimonials": {
+        "subtitle": "Best Destinations around the world",
+        "title": "Travel, enjoy and live a new and full life",
+        "data": [
+            {
+                "id": 0,
+                "text": "“On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no.”",
+                "author": "Mike taylor",
+                "place": "Lahore, Pakistan"
+            },
+            {
+                "id": 1,
+                "text": "“On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no.”",
+                "author": "Chris Thomas",
+                "place": "CEO of Red Button"
+            }
+        ]
+    },
+    "subscribe": {
+      "title": "Subscribe to get information, latest news and other interesting offers about Jadoo",
+      "mail": "Your email",
+      "subscription": "Subscribe"
+    },
+    "footer": {
+      "subtitle": "Book your trip in minute, get full Control for much longer.",
+      "data": [
+        {
+            "title": "Company",
+            "list": ["About", "Careers", "Mobile"]
+        }, 
+        {
+            "title": "Contact",
+            "list": ["Help/FAQ", "Press", "Affilates"]
+        }, 
+        {
+            "title": "More",
+            "list": ["Airlinefees", "Airline", "Low fare tips"]
+        } 
+    ],
+    "socialsText": "Discover our app",
+    "google": "Get in on",
+    "apple": "Avaible on the",
+    "copyright": "All rights reserved@jadoo.co"
+  }
+  }

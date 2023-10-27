@@ -1,5 +1,6 @@
 .servises {
     margin-bottom: 123px;
+    position: relative;
 }
 
 .category {
@@ -26,8 +27,9 @@
 }
 
 .item {
-    height: 314px;
-    padding: 45px;
+    /* height: 314px; */
+    width: 190px;
+    /* padding: 45px; */
     margin-top: 66px;
     position: relative;
     transition: 0.2s;
@@ -35,9 +37,9 @@
 
 .item:hover {
     box-shadow: 0px 100px 80px 0px rgba(193, 8, 177, 0.05); 
-     background: rgba(255, 255, 255, 1);
-     border-radius: 36px;
-     transition: 0.2s;
+    background: rgba(255, 255, 255, 1);
+    border-radius: 36px;
+    transition: 0.2s;
 }
 
 .item:hover::before{
@@ -67,6 +69,7 @@
     font-weight: 600;
     line-height: 27px;
     letter-spacing: 0em;
+    margin-bottom: 15px;
 }
 
 .description {
@@ -75,4 +78,10 @@
     font-weight: 500;
     line-height: 26px;
     letter-spacing: 0em;
+}
+
+.decor {
+    position: absolute;
+    right: 0;
+    top: 0;
 }

@@ -172,3 +172,8 @@
 .interest {
     color: #8A79DF
 }
+
+.heart:hover path{
+    fill: rgb(179, 7, 7);
+
+}
