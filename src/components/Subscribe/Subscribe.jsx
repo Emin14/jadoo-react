@@ -1,4 +1,3 @@
-import React from 'react';
 import { useTranslation } from 'react-i18next';
 import styles from './Subscribe.module.css';
 import decor from '../../assets/img/Group42.svg';

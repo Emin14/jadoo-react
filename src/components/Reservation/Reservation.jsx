@@ -1,4 +1,3 @@
-import React from 'react';
 import { useTranslation } from 'react-i18next';
 import styles from './Reservation.module.css';
 import group11 from '../../assets/img/Group11.svg';

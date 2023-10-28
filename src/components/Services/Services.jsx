@@ -1,4 +1,3 @@
-import React from 'react';
 import { useTranslation } from 'react-i18next';
 import microphone from '../../assets/img/microphone.svg';
 import plane from '../../assets/img/plane.svg';

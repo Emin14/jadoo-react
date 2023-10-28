@@ -1,6 +1,4 @@
 .wrapper {
-    background-color: white;
-    padding: 13px 90px 70px 90px;
     position: relative;
     margin-bottom: 166px;
 }
@@ -10,7 +8,7 @@
     height: 407px;
     background-color: rgba(223, 215, 249, 0.2);
     padding: 79px 144px 79px 144px;
-    margin-bottom: 74px;
+
     border-radius: 129px 20px 20px 20px;
     display: flex;
     flex-direction: column;
@@ -69,6 +67,7 @@
     position: absolute;
     left: 0;
     opacity: 0.1;
+    z-index: -1;
 }
 
 .decor2 {

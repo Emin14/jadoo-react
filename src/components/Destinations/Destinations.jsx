@@ -1,4 +1,3 @@
-import React from 'react';
 import { useTranslation } from 'react-i18next';
 import styles from './Destinations.module.css';
 import rectangle14 from '../../assets/img/Rectangle14.svg';

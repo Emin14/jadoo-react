@@ -1,4 +1,3 @@
-import React from 'react';
 import { useTranslation } from 'react-i18next';
 import styles from './Footer.module.css';
 import instagram from '../../assets/img/Social-media/instagram1.svg';

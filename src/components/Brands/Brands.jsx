@@ -1,4 +1,3 @@
-import React from 'react';
 import styles from './Brands.module.css';
 import image27 from '../../assets/img/Brands/image27.svg';
 import image28 from '../../assets/img/Brands/image28.svg';
