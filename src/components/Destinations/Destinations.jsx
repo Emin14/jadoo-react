@@ -42,8 +42,8 @@ export default function Destinations() {
             </div>
           </li>
         ))}
-        <img src={decore} className={styles.decore} alt="decore" />
       </ul>
+      <img src={decore} className={styles.decore} alt="decore" />
     </div>
   );
 }

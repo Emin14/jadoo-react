@@ -1,5 +1,6 @@
 .destinations {
     margin-bottom: 186px;
+    position: relative;
 }
 
 .title {
@@ -22,8 +23,8 @@
 
 .list {
     display: flex;
-    column-gap: 45px;
-    position: relative;
+    /* column-gap: 45px; */
+    column-gap: 3vw;
 }
 
 .item {
@@ -49,7 +50,6 @@
 
 .bottom {
     width: 315px;
-    height: 130px;
 
     position: absolute;
     bottom: 0;
@@ -60,6 +60,7 @@
 
     text-align: start;
     padding: 27px 25px 42px 20px;
+    padding: 1.9vw 1.8vw 2.9vw 1.4vw;
     color: rgba(94, 98, 130, 1);
     border-radius: 0 0 24px 24px;
     

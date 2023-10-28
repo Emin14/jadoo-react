@@ -4,11 +4,11 @@
 }
 
 .form {
-    width: 1170px;
+    max-width: 1170px;
     height: 407px;
     background-color: rgba(223, 215, 249, 0.2);
-    padding: 79px 144px 79px 144px;
-
+    /* padding: 79px 144px 79px 144px; */
+    padding: 5.5vw 10vw;
     border-radius: 129px 20px 20px 20px;
     display: flex;
     flex-direction: column;
@@ -89,6 +89,6 @@
 
 .decor4 {
     position: absolute;
-    bottom: 70px;
-    right: -160px;
+    bottom: -65px;
+    right: -70px;
 }

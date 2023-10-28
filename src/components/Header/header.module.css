@@ -4,7 +4,7 @@
     /* margin: 47px 0 18px 0; */
     padding: 47px 20px 18px 0;
     position: relative;
-    left: 7px;
+    right: 7px;
     align-items: center;
     font-family: 'Open Sans', sans-serif;
     line-height: 22px;
@@ -15,7 +15,7 @@
 .list {
     display: flex;
     column-gap: 60px;
-    margin-right: 86px;
+    /* margin-right: 86px; */
     font-weight: 400;
     cursor: pointer;
 }
@@ -40,7 +40,7 @@
     padding: 9px 22px;
     border: 1px solid rgba(33, 40, 50, 1);
     border-radius: 5px;
-    margin-right: 42px;
+    /* margin-right: 42px; */
 }
 
 .signup:hover{
@@ -50,7 +50,7 @@
 
 .login {
     border: none;
-    margin-right: 52px;
+    /* margin-right: 52px; */
 }
 
 .login:hover{
@@ -58,9 +58,9 @@
     text-underline-offset: 10px;
  }
 
-/* .logo {
-    margin-right: 220px;
-} */
+.logo {
+    margin-right: 20px;
+}
 
 .select {
     background-color: inherit;
@@ -86,32 +86,34 @@ option {
 
 /* // Большие девайсы (большие десктопы, < 1200px) */
 @media (max-width: 1199.98px) {
-    .logo {
+    /* .logo {
         margin-right: 170px;
-    }
+    } */
 }
 
 /* // Средние девайсы («таблетки», < 992px)  */
 @media (max-width: 991.98px) {
-    .logo {
+    /* .logo {
         margin-right: 130px;
-    }
+    } */
 }
 
 /* // Малые девайсы («ландшафтные», < 768px) */
 @media (max-width: 767.98px) {
-    .logo {
+    /* .logo {
         margin-right: 100px;
-    }
+    } */
 }
 
 @media (max-width: 575.98px) {
-    .logo {
+    /* .logo {
         margin-right: 45px;
-    }
+    } */
 }
 
 .wrapper {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
+    column-gap: 70px;
 }
