@@ -1,6 +1,7 @@
 .servises {
     margin-bottom: 123px;
     position: relative;
+    text-align: center;
 }
 
 .category {
@@ -13,16 +14,19 @@
 }
 
 .servisesTitle {
+    position: relative;
     font-family: 'Volkhov', serif;
     font-size: 50px;
     font-weight: 700;
     line-height: 65px;
     letter-spacing: 0em;
+    z-index: 1;
 }
 
 .list {
     display: flex;
     gap: 75px;
+    gap: 5vw;
     padding-bottom: 33px;
 }
 

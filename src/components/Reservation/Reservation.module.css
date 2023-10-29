@@ -23,7 +23,9 @@
     letter-spacing: 0em;
     color: rgba(20, 24, 62, 1);
     margin-bottom: 31px;
-    width: 511px;
+    /* width: 511px; */
+    width: 50vw;
+    max-width: 511px;
 }
 
 .list {

@@ -22,7 +22,8 @@
     line-height: 65px;
     letter-spacing: 0em;
     color: rgba(20, 24, 62, 1);
-    width: 409px;
+    width: 50vw;
+    max-width: 409px;
 }
 
 
@@ -57,6 +58,7 @@
   /* background-color: rgba(255, 255, 255, 1); */
   /* box-shadow: 0px 100px 80px 0px rgba(0, 0, 0, 0.05); */
   padding: 0 68px 34px 34px;
+  padding: 0 4.7vw 2.3vw 4.7vw;
 }
 
 .modalText {

@@ -1,6 +1,8 @@
 .wrapper {
     display: flex;
     justify-content: space-between;
+    column-gap: 10px;
     align-items: center;
     margin-bottom: 124px;
+    flex-wrap: wrap;
 }

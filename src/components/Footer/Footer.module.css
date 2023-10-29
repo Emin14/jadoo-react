@@ -7,7 +7,14 @@
 .blocks {
     display: flex;
     column-gap: 80px;
+    column-gap: 5vw;
     margin-bottom: 84px;
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    /* Будет создано 3 ряда */
+    grid-template-rows: 1fr;
 }
 
 .title {
@@ -129,4 +136,40 @@
 .apple {
     width: 20px;
     height: 20px;
+}
+
+/* // Большие девайсы (большие десктопы, < 1200px) */
+@media (max-width: 1199.98px) {
+    /* .logo {
+        margin-right: 170px;
+    } */
+}
+
+/* // Средние девайсы («таблетки», < 992px)  */
+@media (max-width: 991.98px) {
+    .blocks {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        /* Будет создано 3 ряда */
+        grid-template-rows: 2fr;
+    }
+
+    .socialsWrapper {
+        text-align: center;
+        grid-column: 2 / 4;
+        grid-row: 2 / 2;
+        margin-top: 20px;
+    }
+}
+
+/* // Малые девайсы («ландшафтные», < 768px) */
+@media (max-width: 767.98px) {
+    /* .logo {
+        margin-right: 100px;
+    } */
+}
+
+@media (max-width: 575.98px) {
+    /* .logo {
+        margin-right: 45px;
+    } */
 }

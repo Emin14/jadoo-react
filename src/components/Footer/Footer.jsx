@@ -28,7 +28,7 @@ export default function Footer() {
           </div>
         ))}
 
-        <div>
+        <div className={styles.socialsWrapper}>
           <div className={styles.socials}>
             <span className={styles.facebook}><img src={facebook} alt="" /></span>
             <span className={styles.instagram}><img src={instagram} alt="" /></span>

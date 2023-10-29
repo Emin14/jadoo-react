@@ -4,13 +4,14 @@
   box-sizing: border-box;
 }
 
-
+html,
 body {
-  width: 100%;
-  position: relative;
-  /* max-width: 1230px;
-  margin: 0 auto;
-  padding: 0 15px; */
+    min-width: 320px;
+    position: relative;
+    width: 100%;
+    /* color: #FFFFFF; */
+    /* font-size: 10px; */
+    scroll-behavior: smooth;
 }
 
 
