@@ -28,7 +28,7 @@
 /* // Большие девайсы (большие десктопы, < 1200px) */
 @media (max-width: 1199.98px) {
   .swiper {
-        height: 329px;
+        height: 339px;
   }
 }
 

@@ -12,10 +12,22 @@ body {
     position: relative;
     width: 100%;
     /* color: #FFFFFF; */
-    /* font-size: 10px; */
     scroll-behavior: smooth;
+    font-size: 16px;
 }
 
+
+/* // Средние девайсы («таблетки», < 992px)  */
+@media (max-width: 991.98px) {
+  html {
+        font-size: 12px;
+  }
+}
+@media (max-width: 767.98px) {
+  html {
+        font-size: 10px;
+  }
+}
 
 ul, p, h1, h2, h3, h4, h5, h6 {
   margin: 0;
@@ -35,4 +47,8 @@ a {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 10px;
+}
+
+button {
+  border: none;
 }

@@ -6,7 +6,7 @@
 
 .title {
     font-family: 'Volkhov', serif;
-    font-size: 50px;
+    font-size: 3.1rem;
     font-weight: 700;
     line-height: 65px;
     letter-spacing: 0em;
@@ -99,6 +99,19 @@
     z-index: -1;
 }
 
+.item:nth-child(3)::after {
+    content: '';
+    width: 100px;
+    height: 270px;
+    position: absolute;
+    right: -60px;
+    bottom: 30px;
+    background-image: url('./../../assets/img/Decore2.svg');
+    background-repeat: no-repeat;
+    z-index: -1;
+
+}
+
 
 /* // Большие девайсы (большие десктопы, < 1200px) */
 @media (max-width: 1199.98px) {
@@ -119,6 +132,13 @@
     }
     .bottom {
         width: 230px;
+    }
+
+    .decore {
+        position: absolute;
+        right: -30px;
+        bottom: 50px;
+        z-index: -1;
     }
 }
 
