@@ -23,6 +23,7 @@ export default function Banner() {
   };
 
   return (
+    <div className='container'>
     <div className={styles.wrapper}>
       <div className={styles.leftBlock}>
         <div className={styles.bannerText}>
@@ -59,6 +60,7 @@ export default function Banner() {
           />
         </div>
       </div>
+    </div>
     </div>
   );
 }

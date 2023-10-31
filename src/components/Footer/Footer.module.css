@@ -1,15 +1,19 @@
 .wrapper {
     font-family: 'Poppins', sans-serif;
-    margin-bottom: 79px;
+    margin-bottom: 4.9rem;
     text-align: start;
-    padding: 0px 15px 0 15px; 
+    padding-top: 20px;
+}
+
+.logo {
+    margin-top: -20px;
 }
 
 .blocks {
     display: flex;
     column-gap: 80px;
     column-gap: 5vw;
-    margin-bottom: 84px;
+    margin-bottom: 5.2rem;
 
     display: grid;
 

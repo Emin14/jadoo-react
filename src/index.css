@@ -29,6 +29,12 @@ body {
   }
 }
 
+@media (max-width: 575.98px) {
+  html {
+    font-size: 7px;
+}
+}
+
 ul, p, h1, h2, h3, h4, h5, h6 {
   margin: 0;
   padding: 0;

@@ -10,6 +10,10 @@
   max-width: 541px;
   /* width: 50vw; */
   width: 40vw;
+
+  max-width: 669px;
+  /* width: 50vw; */
+  width: 47vw;
   }
   
 .swiper-slide {
@@ -47,7 +51,8 @@
 }
 
 @media (max-width: 575.98px) {
-  /* .logo {
-      margin-right: 45px;
-  } */
+  .swiper {
+    padding-right: 12vw;
+    width: 60vw;
+}
 }

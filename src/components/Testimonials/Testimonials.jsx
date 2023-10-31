@@ -20,6 +20,7 @@ export default function Testimonials() {
   const img = [mike, tagiev];
 
   return (
+    <div className='container'>
     <div className={styles.wrapper}>
       <div>
         <h5 className={styles.subtitle}>{t('testimonials.subtitle')}</h5>
@@ -73,6 +74,7 @@ export default function Testimonials() {
         </Swiper>
       </div>
 
+    </div>
     </div>
   );
 }

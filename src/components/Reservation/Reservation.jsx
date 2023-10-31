@@ -18,8 +18,9 @@ export default function Reservation() {
   const data = t('reservation.data', { returnObjects: true });
 
   return (
+    <div className='container'>
     <div className={styles.wrapper}>
-      <div>
+      <div className={styles.leftBlock}>
         <h5 className={styles.subtitle}>{t('reservation.subtitle')}</h5>
         <h3 className={styles.title}>{t('reservation.title')}</h3>
         <ul className={styles.list}>
@@ -83,6 +84,7 @@ export default function Reservation() {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 }
