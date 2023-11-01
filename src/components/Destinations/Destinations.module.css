@@ -198,6 +198,10 @@ top: 0;
         display: none;
     }
 
+    .list {
+        justify-content: center;
+    }
+
     .img {
         right: -32%;
     }

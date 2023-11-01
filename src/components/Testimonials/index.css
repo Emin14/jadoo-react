@@ -52,8 +52,12 @@
 
 @media (max-width: 575.98px) {
   .swiper {
-    padding-right: 12vw;
+    padding-right: 10vw;
     width: 60vw;
-    height: 329px;
+    height: 339px;
+}
+
+.swiper-slide img {
+  width: 48px;
 }
 }

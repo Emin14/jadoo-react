@@ -39,7 +39,6 @@
     width: 30rem;
     width: 59%;
     min-width: 230px;
-    height: 289px;
     border-radius: 13px;
 }
 
@@ -219,9 +218,9 @@
         width: 213px;
     }
 
-    .list {
+    /* .list {
         height: 448px;
-    }
+    } */
     
 }
 
@@ -240,7 +239,7 @@
     }
 
     .list {
-        height: 296px;
+        /* height: 296px; */
         width: 100%;
 }
 

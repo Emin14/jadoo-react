@@ -184,13 +184,13 @@ option {
     } */
 
     .menu,  .menu button, .menu .select{
-        font-size: 60px;
+        font-size: 34px;
         font-weight: 600;
     }
 
     .list {
         flex-direction: column;
-        row-gap: 100px;
+        row-gap: 40px;
     }
 
     .account2 {
