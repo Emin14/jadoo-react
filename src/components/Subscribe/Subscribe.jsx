@@ -14,7 +14,7 @@ export default function Subscribe() {
         <form action="" className={styles.form}>
           <h5 className={styles.title}>{t('subscribe.title')}</h5>
           <div className={styles.submit}>
-            <input className={styles.input} type="text" placeholder={t('subscribe.mail')} />
+            <label className={styles.label}><input className={styles.input} type="text" placeholder={t('subscribe.mail')} /></label>
             <button type="submit" className={styles.button}>{t('subscribe.subscription') }</button>
           </div>
           <img className={styles.decor} src={decor} alt="" />

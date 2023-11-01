@@ -160,7 +160,6 @@ top: 0;
     }
     
     .img {
-        position: absolute;
         width: 388px;
         right: -28%;
     }
@@ -181,7 +180,6 @@ top: 0;
     }
     
     .img {
-        position: absolute;
         width: 328px;
         right: -28%;
     }
@@ -202,5 +200,19 @@ top: 0;
 
     .img {
         right: -32%;
+    }
+
+    .imageWrapper {
+        width:157px;
+        height:245px;
+    }
+
+    .img {
+        width: 250px;
+        right: -28%;
+    }
+
+    .bottom {
+        padding: 3%;
     }
 }

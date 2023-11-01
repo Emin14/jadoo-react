@@ -35,22 +35,25 @@
     border: none;
     margin-right: 24px;
     padding: 25px 66px;
-}
-
-.submit {
+    padding: 1.56rem 4.12rem;
     position: relative;
 }
 
-.submit::before {
+.label {
+    position: relative;
+}
+
+  .label::before {
     content: '';
     position: absolute;
     top: 0;
     bottom: 0;
-    left: 170px;
+    left: 5%;
     margin: auto 0;
     width: 21px;
     height: 18px;
     background: url('../../assets//img//Group46.svg') no-repeat;
+    z-index: 1;
   }
 
 
@@ -100,3 +103,67 @@
         height: 347px;
     }
 }
+
+@media (max-width: 575.98px) {
+    .form {
+        padding: 5vw;
+        border-radius: 79px 20px 20px 20px;
+        height: 197px;
+    }
+
+    .decor2 {
+        width: 50%;
+        height: 50%;
+        right: -30px;
+        top: 0;
+    }
+
+    .decor {
+        width: 50%;
+        height: 50%;
+        bottom: 0;
+    }
+
+    .decor3 {
+        width: 10%;
+        top: -30px;
+        right: -10px;
+    }
+
+    .decor4 {
+        width: 20%;
+        bottom: -30px;
+        right: -10px;
+    }
+
+    .input {
+        padding: 10px 55px;
+        width: 100%;
+        height: 48px;
+        margin-right: 0;
+    }
+
+    .label::before {
+        top: 4px;
+    }
+
+    .submit {
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+        align-items: center;
+    }
+
+    .button {
+        text-align: center;
+        width: 40%;
+        padding: 12px;
+    }
+
+    .title {
+        position: relative;
+        left: 10px;
+    }
+
+  
+  }

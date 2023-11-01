@@ -2,6 +2,7 @@
     display: flex;
     text-align: start;
     margin-bottom: 200px;
+    margin-bottom: 12.5rem;
     justify-content: space-between;
 }
 
@@ -213,9 +214,13 @@
     }
 
     .notification {
-        bottom: 160px;
-        right: -30px;
+        bottom: 230px;
+        right: -14px;
         width: 213px;
+    }
+
+    .list {
+        height: 448px;
     }
     
 }
@@ -227,11 +232,7 @@
 
     .wrapper {
         flex-direction: column;
-        margin-bottom: 100px;
-    }
-
-    .rightBlock {
-        margin-top: 120px;
+        margin-bottom: 80px;
     }
 
     .card {
@@ -239,11 +240,13 @@
     }
 
     .list {
-        height: 259px;
+        height: 296px;
+        width: 100%;
 }
 
 .title {
     width: 100%;
 }
+
 
 }

@@ -67,9 +67,10 @@
 .modalText {
 font-size: 16px;
 font-weight: 500;
-line-height: 32px;
+line-height: 2rem;
+line-height: clamp(24px, 2rem, 32px);
 letter-spacing: 0em;
-margin-bottom: 24px;
+margin-bottom: 1.5rem;
 
 }
 
@@ -91,4 +92,8 @@ margin-bottom: 24px;
   .wrapper {
       gap: 0;
   }
+
+  .modalText {
+    font-size: 14px;
+    }
 }
