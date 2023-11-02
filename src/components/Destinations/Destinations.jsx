@@ -13,7 +13,6 @@ export default function Destinations() {
   const data = t('destinations.data', { returnObjects: true });
 
   return (
-    <div className='container'>
       <div className={styles.destinations}>
         <h5 className={styles.subtitle}>{t('destinations.subtitle')}</h5>
         <h3 className={styles.title}>{t('destinations.title')}</h3>
@@ -46,7 +45,5 @@ export default function Destinations() {
             {/* <img src={decore} className={styles.decore} alt="decore" /> */}
           </ul>
       </div>
-    </div>
-    
   );
 }

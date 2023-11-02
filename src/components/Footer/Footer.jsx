@@ -11,8 +11,7 @@ export default function Footer() {
   const data = t('footer.data', { returnObjects: true });
 
   return (
-    <div className='container'>
-    <div className={styles.wrapper}>
+    <footer className={styles.wrapper}>
       <div className={styles.blocks}>
         <div className={styles.logo}>
           <p className={styles.title}>Jadoo.</p>
@@ -55,7 +54,6 @@ export default function Footer() {
         </div>
       </div>
       <p className={styles.copyright}>{t('footer.copyright')}</p>
-    </div>
-    </div>
+    </footer>
   );
 }

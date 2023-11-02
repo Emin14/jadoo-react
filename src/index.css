@@ -49,12 +49,18 @@ a {
   color: inherit;
 }
 
-.container {
+/* .container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 10px;
-}
+} */
 
 button {
   border: none;
+}
+
+#root {
+  width: 100%;
+  overflow: hidden;
+  height: 100%;
 }

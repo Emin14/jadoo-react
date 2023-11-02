@@ -190,7 +190,7 @@ option {
 
     .list {
         flex-direction: column;
-        row-gap: 40px;
+        row-gap: 34px;
     }
 
     .account2 {

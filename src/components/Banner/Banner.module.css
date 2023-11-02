@@ -1,6 +1,6 @@
 .wrapper {
     display: flex;
-    margin-bottom: 100px;
+    margin-bottom: 6.2rem;
 }
 
 .leftBlock {
@@ -39,8 +39,16 @@
     z-index: 2;
 }
 
-.titleWrapper {
-    position: relative;
+.title::after {
+    content: '';
+    position: absolute;
+    top: 70px;
+    right: 70px;
+    background-image: url('./../../assets/img/Vector.svg');
+    background-repeat: no-repeat;
+    z-index: -1;
+    width: 50%;
+    height: 5%;
 }
 
 .text {
@@ -57,31 +65,42 @@
 }
 
 .rightBlock {
-    position: relative;
-    
+    position: relative; 
 }
+
+.rightBlock::before {
+    content: '';
+    position: absolute;
+    top: 60px;
+    left: 160px;
+    background-image: url('./../../assets/img/Airplane.svg');
+    background-repeat: no-repeat;
+    z-index: 0;
+    width: 16%;
+    height: 20%;
+    background-size: contain;
+}
+
+.rightBlock::after {
+    content: '';
+    position: absolute;
+    top: 110px;
+    right: 10px;
+    background-image: url('./../../assets/img/Airplane.svg');
+    background-repeat: no-repeat;
+    z-index: 0;
+    width: 16%;
+    height: 20%;
+    background-size: contain;
+}
+
 
 .traveller {
     position: relative;
     left: 0; 
     z-index: 1;
+    width: 100%;
 }
-
-.airplane1, .airplane2 {
-    position: absolute;
-}
-
-.airplane1 {
-    top: 55px;
-    left: 160px;
-}
-
-.airplane2 {
-    top: 100px;
-    right: 10px;
-}
-
-
 
 
 .play {
@@ -137,13 +156,6 @@
     background: rgb(220, 40, 4);
    }
 
-.vector {
-    position: absolute;
-    top: 70px;
-    right: 10px;
-    z-index: -1;
-}
-
 .demo {
     font-family: 'Poppins', sans-serif;
     font-size: 17px;
@@ -177,6 +189,16 @@
     .traveller {
         width: 645px;
     }
+
+    .rightBlock::before {
+        top: 40px;
+        left: 130px;
+    }
+    
+    .rightBlock::after {
+        top: 110px;
+        right: 10px;
+    }
     
 }
 
@@ -186,17 +208,37 @@
         width: 405px;
     }
 
+    .title::after {
+        top: 50px;
+        right: 170px;
+    }
+
+    .rightBlock::before {
+        top: 20px;
+        left: 80px;
+    }
+    
+    .rightBlock::after {
+        top: 60px;
+        right: 10px;
+    }
+
 
    
 }
 
 /* // Малые девайсы («ландшафтные», < 768px) */
 @media (max-width: 767.98px) {
+
+    .wrapper {
+        padding-top: 100px;
+    }
+
     .traveller {
         position: absolute;
-        width: 285px;
-        top: 0;
-        left: -100px;
+        width: 305px;
+        top: 30px;
+        left: -80px;
     }
 
     .leftBlock {
@@ -208,20 +250,13 @@
         width: 383px;
     }
 
-    .airplane1 {
-        width: 49px;
-        top: 15px;
-        left: -40px;
-    }
-
-    .airplane2 {
-        width: 49px;
-        top: 35px;
-        right: -175px;
-    }
-
     .play {
         justify-content: space-between;
+    }
+
+    .title::after {
+        top: 40px;
+        right: 60px;
     }
 
 
@@ -230,18 +265,14 @@
 @media (max-width: 575.98px) {
 
     .traveller {
-        position: absolute;
         width: 200px;
         top: 220px;
         left: -150px;
     }
 
-    .airplane1,  .airplane2{
-        display: none;
-    }
 
     .leftBlock {
-        padding-top: 64px;
+        padding-top: 24px;
         width: 100%;
         text-align: center;
 
@@ -265,5 +296,10 @@
        .moreBtn {
         margin-right: 28px;
        }
+
+    .title::after {
+        top: 30px;
+        right: 70px;
+    }
 
 }

@@ -39,7 +39,6 @@ const mrt = (e) => {
 }
 
   return (
-    <div className='container'>
         <header className={[styles[`wrapper`], styles[`${active}`]].join(" ")}>
             <div onClick={mrt} className={styles.hamburger} >
                 {nav ? <AiOutlineClose size={35} /> : <AiOutlineMenu size={35} />}
@@ -69,6 +68,5 @@ const mrt = (e) => {
                 <option value="RU">RU</option>
               </select>
           </header>
-    </div>
   );
 }

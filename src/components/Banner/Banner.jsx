@@ -3,7 +3,6 @@ import { useTranslation } from 'react-i18next';
 import traveller from '../../assets/img/Traveller.png';
 import airplane from '../../assets/img/Airplane.svg';
 import playButton from '../../assets/img/Polygon1.svg';
-import vector from '../../assets/img/Vector.svg';
 import styles from './Banner.module.css';
 
 export default function Banner() {
@@ -23,15 +22,11 @@ export default function Banner() {
   };
 
   return (
-    <div className='container'>
     <div className={styles.wrapper}>
       <div className={styles.leftBlock}>
         <div className={styles.bannerText}>
           <h5 className={styles.subtitle}>{t('banner.subtitle')}</h5>
-          <div className={styles.titleWrapper}>
             <h3 className={styles.title}>{t('banner.title')}</h3>
-            <img className={styles.vector} src={vector} alt="" />
-          </div>
           <p className={styles.text}>{t('banner.text')}</p>
           <div className={styles.play}>
             <button type="button" className={styles.moreBtn}>{t('banner.more')}</button>
@@ -44,8 +39,6 @@ export default function Banner() {
       </div>
       <div className={styles.rightBlock}>
         <img src={traveller} alt="" className={styles.traveller} />
-        <img src={airplane} alt="" className={styles.airplane1} />
-        <img src={airplane} alt="" className={styles.airplane2} />
       </div>
       <div className={show ? `${styles.popup} ${styles.active}` : styles.popup} onClick={playVideo} onKeyDown={playVideo} role="presentation">
         <div className={styles.modal}>
@@ -60,7 +53,6 @@ export default function Banner() {
           />
         </div>
       </div>
-    </div>
     </div>
   );
 }
