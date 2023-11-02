@@ -63,10 +63,6 @@
     margin-bottom: 12px;
 }
 
-.item:hover {
-    text-decoration: underline;
-    cursor: pointer;
-}
 
 .socials {
     display: flex;
@@ -146,6 +142,13 @@
     width: 20px;
     height: 20px;
 }
+
+@media screen and (min-width: 768px) {
+    .item:hover {
+        text-decoration: underline;
+        cursor: pointer;
+    }
+  }
 
 /* // Большие девайсы (большие десктопы, < 1200px) */
 @media (max-width: 1199.98px) {

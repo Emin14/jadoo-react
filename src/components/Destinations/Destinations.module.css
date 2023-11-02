@@ -38,10 +38,6 @@
     cursor: pointer;
 }
 
-.item:hover {
-    transform: scale(1.1, 1.1);
-    transition: 0.3s;
-}
 
 .imageWrapper {
     position: relative;
@@ -131,6 +127,13 @@ top: 0;
     z-index: -1;
 
 }
+
+@media screen and (min-width: 768px) {
+    .item:hover {
+        transform: scale(1.1, 1.1);
+        transition: 0.3s;
+    }
+  }
 
 
 /* // Большие девайсы (большие десктопы, < 1200px) */

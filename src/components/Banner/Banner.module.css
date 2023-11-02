@@ -128,9 +128,6 @@
     transition: 0.3s;
 }
 
-.moreBtn:hover {
-    background: rgba(223, 105, 81, 1);
-}
 
 .moreBtn:active {
     transform: translate(3%, 7%);
@@ -152,9 +149,6 @@
  cursor: pointer;
 }
 
-.playBtn:hover {
-    background: rgb(220, 40, 4);
-   }
 
 .demo {
     font-family: 'Poppins', sans-serif;
@@ -183,6 +177,16 @@
 .active {
   display: flex;
 }
+
+@media screen and (min-width: 768px) {
+    .playBtn:hover {
+        background: rgb(220, 40, 4);
+       }
+
+       .moreBtn:hover {
+        background: rgba(223, 105, 81, 1);
+    }
+  }
 
 /* // Большие девайсы (большие десктопы, < 1200px) */
 @media (max-width: 1199.98px) {

@@ -14,10 +14,7 @@ border: none;
     /* transition: all .5s; */
   }
   
-  .swiperNavBtns button:hover {
-    /* background-color: hsl(210, 100%, 40%); */
-    cursor: pointer;
-  }
+
 
 .prev {
   position: absolute;
@@ -33,6 +30,15 @@ border: none;
 }
 
 
-button:hover path{
-  stroke: #0c0c0c;
+
+
+@media screen and (min-width: 768px) {
+  .swiperNavBtns button:hover {
+    /* background-color: hsl(210, 100%, 40%); */
+    cursor: pointer;
+  }
+  
+  button:hover path{
+    stroke: #0c0c0c;
+  }
 }
