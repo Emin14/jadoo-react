@@ -61,12 +61,10 @@
     letter-spacing: 0em;
     color: rgba(94, 98, 130, 1);
     margin-bottom: 12px;
-
-    width: max-content;
 }
 
   .item:active {
-    color: #FF7D68;
+    color: rgb(61, 155, 250)
   }
 
 
@@ -75,6 +73,7 @@
     justify-content: center;
     gap: 30px;
     margin-bottom: 26px;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 
@@ -86,9 +85,19 @@
     justify-content: center;
     align-items: center;
     background-color: rgba(255, 255, 255, 1);
+    background: rgba(255, 255, 255, 1) radial-gradient(circle, transparent 1%, rgba(255, 255, 255, 1) 1%) center/15000%;
     box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.1);
     cursor: pointer;
+
+    background-position: center;
+    transition: background 0.6s;
 }
+
+.facebook:active, .twitter:active {
+    background-color: rgb(209, 208, 208);
+    background-size: 100%;
+    transition: background 0s;
+} 
 
 .instagram {
     width: 45px;
@@ -129,6 +138,7 @@
     font-size: 8px;
     padding: 8px;
     cursor: pointer;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 
     background-position: center;
     transition: background 0.6s;
@@ -163,7 +173,7 @@
     .item:hover {
         text-decoration: underline;
         cursor: pointer;
-        color: #FF7D68;
+        color: rgb(61, 155, 250)
 }
   }
 

@@ -17,9 +17,6 @@
     column-gap: 4.5vw;
     font-weight: 400;
     cursor: pointer;
-}
-
-.list {
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
@@ -98,8 +95,8 @@ option {
     .user {
         display: none;
         padding: 5px;
-        background-color: rgba(241, 165, 1, 0.496);
-        border-radius: 50%;
+        background-color: rgb(236, 176, 46);
+        border-radius: 48%;
         border: white 2px solid;
     }
 
@@ -119,13 +116,14 @@ option {
     text-underline-offset: 10px;
  }
  .select:hover {
-    background: linear-gradient(180deg, #FF946D 0%, #FF7D68 100%);
+    /* background: linear-gradient(180deg, #FF946D 0%, #FF7D68 100%); */
+    background-color: rgb(236, 176, 46);
     color: white;
     border-radius: 20%;
 }
 
 .list li:active, .login:active {
-    color: #FF7D68;
+    color: rgb(61, 155, 250)
 }
 
 }
@@ -178,8 +176,8 @@ option {
         position: fixed;
         width: 100%;
         z-index: 5;
-        background-color: rgb(223, 215, 249);
-        padding: 20px 0;
+        background-color: rgb(180, 216, 253);
+        padding: 12px 0;
         right: 0;
     }
 
@@ -272,7 +270,7 @@ option {
       }
 
       .select {
-        background-color: rgba(241, 165, 1, 0.496);
+        background-color: rgb(236, 176, 46);
         border-radius: 50%;
         padding: 10px;
       }
@@ -287,7 +285,7 @@ option {
     }
 
       .list li:active {
-        background: rgba(223, 105, 81, 0.1);
+        background: rgb(180, 216, 253, 0.4);
       }
 
 }

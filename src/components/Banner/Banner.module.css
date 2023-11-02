@@ -245,7 +245,7 @@
 @media (max-width: 767.98px) {
 
     .wrapper {
-        padding-top: 100px;
+        padding-top: 86px;
     }
 
     .traveller {
@@ -323,6 +323,11 @@
     .title::after {
         top: 30px;
         right: 70px;
+    }
+
+    iframe {
+        width: 360px;
+        height: 202px;
     }
 
 }
