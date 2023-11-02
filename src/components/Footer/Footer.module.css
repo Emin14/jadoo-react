@@ -148,6 +148,7 @@
     .item:hover {
         text-decoration: underline;
         cursor: pointer;
+        color: rgb(131, 137, 179);
   }
 
 /* // Большие девайсы (большие десктопы, < 1200px) */
@@ -191,9 +192,10 @@
       .item:hover {
         background: rgb(255, 255, 255) radial-gradient(circle, transparent 1%, rgb(255, 254, 254) 1%) center/15000%;
         text-decoration: none;
+        color: rgba(94, 98, 130, 1);
       }
       .item:active {
-        background-color: rgb(230, 230, 230);
+        background-color: rgb(220, 220, 220);
         background-size: 100%;
         transition: background 0s;
       }

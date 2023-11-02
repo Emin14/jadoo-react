@@ -86,9 +86,6 @@ option {
         border: white 2px solid;
     }
 
-    .list li {
-        width: max-content;
-     }
 
     .list li:hover{
         text-decoration: underline solid 3px #DF6951;
@@ -256,18 +253,12 @@ option {
         display: block
     }
 
-    .list li {
-        background-position: center;
-        transition: background 0.6s;
-      }
       .list li:hover {
-        background: rgb(255, 255, 255) radial-gradient(circle, transparent 1%, rgb(255, 255, 255) 1%) center/15000%;
         text-decoration: none;
       }
+
       .list li:active {
-        background-color: rgb(230, 230, 230);
-        background-size: 100%;
-        transition: background 0s;
+        background: rgba(0,0,0,.04);
       }
 
 }
