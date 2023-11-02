@@ -19,6 +19,9 @@
     cursor: pointer;
 }
 
+.list {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
 
 
 .account {
@@ -36,7 +39,21 @@
     padding: 0.6vw 1.5vw;
     border: 1px solid rgba(33, 40, 50, 1);
     border-radius: 5px;
+
+    background-position: center;
+    transition: background 0.6s;
 }
+
+.signup:hover {
+    background: #FF7D68 radial-gradient(circle, transparent 1%, #FF7D68 1%) center/15000%;
+    color: white;
+  }
+
+  .signup:active {
+    background-color: #faaea2;
+    background-size: 100%;
+    transition: background 0s;
+  }
 
 
 
@@ -87,26 +104,31 @@ option {
     }
 
 
-    .list li:hover{
-        text-decoration: underline solid 3px #DF6951;
-        text-underline-offset: 10px;
-     }
 
-     .signup:hover{
-        background: linear-gradient(180deg, #FF946D 0%, #FF7D68 100%);
-        color: white;
-     }
-    
-    .login:hover{
-        text-decoration: underline solid 3px #DF6951;
-        text-underline-offset: 10px;
-     }
 
-     .select:hover {
-        background: linear-gradient(180deg, #FF946D 0%, #FF7D68 100%);
-        color: white;
-        border-radius: 20%;
-    }
+@media screen and (min-width: 768px) {
+.list li:hover{
+    text-decoration: underline solid 3px #DF6951;
+    text-underline-offset: 10px;
+ }
+
+
+
+.login:hover{
+    text-decoration: underline solid 3px #DF6951;
+    text-underline-offset: 10px;
+ }
+ .select:hover {
+    background: linear-gradient(180deg, #FF946D 0%, #FF7D68 100%);
+    color: white;
+    border-radius: 20%;
+}
+
+.list li:active, .login:active {
+    color: #FF7D68;
+}
+
+}
 
 
     /* // Средние девайсы («таблетки», < 992px)  */
@@ -194,7 +216,18 @@ option {
 
     .list {
         flex-direction: column;
-        row-gap: 34px;
+        row-gap: 20px;
+        text-align: center;
+
+    }
+
+    .list li{
+       padding: 24px 0;
+
+    }
+
+    .nav {
+        width: 100%;
     }
 
     .account2 {
@@ -253,12 +286,8 @@ option {
         display: block
     }
 
-      .list li:hover {
-        text-decoration: none;
-      }
-
       .list li:active {
-        background: rgba(0,0,0,.04);
+        background: rgba(223, 105, 81, 0.1);
       }
 
 }

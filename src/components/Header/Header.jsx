@@ -50,7 +50,7 @@ const mrt = (e) => {
           <div className={
                   nav ? [styles.menu, styles.active].join(' ') : [styles.menu]
                 }>
-            <nav>
+            <nav className={styles.nav}>
               <ul className={styles.list}>
                 {headerMenu.map((item) => (
                   <li key={item}>{item}</li>

@@ -30,13 +30,15 @@ body {
   html {
         font-size: 10px;
   }
-  
+
   body {
     -ms-user-select: none; 
     -moz-user-select: none; 
     -webkit-user-select: none; 
     user-select: none; 
   }
+
+  
 }
 
 @media (max-width: 575.98px) {

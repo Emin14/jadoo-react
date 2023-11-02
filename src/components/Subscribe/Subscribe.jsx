@@ -11,7 +11,7 @@ export default function Subscribe() {
   return (
     <div>
       <div className={styles.wrapper}>
-        <form action="" className={styles.form}>
+        <form action="" className={styles.form} onSubmit={(e) => e.preventDefault()}>
           <h5 className={styles.title}>{t('subscribe.title')}</h5>
           <div className={styles.submit}>
             <label className={styles.label}><input className={styles.input} type="text" placeholder={t('subscribe.mail')} /></label>

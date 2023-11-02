@@ -65,6 +65,10 @@
     width: max-content;
 }
 
+  .item:active {
+    color: #FF7D68;
+  }
+
 
 .socials {
     display: flex;
@@ -117,6 +121,7 @@
     height: 35px;
     border-radius: 17.5px;
     background-color: rgba(8, 8, 9, 1);
+    background: rgba(8, 8, 9, 1) radial-gradient(circle, transparent 1%, rgba(8, 8, 9, 1) 1%) center/15000%;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -124,7 +129,16 @@
     font-size: 8px;
     padding: 8px;
     cursor: pointer;
+
+    background-position: center;
+    transition: background 0.6s;
 }
+
+  .store:active {
+    background-color: rgb(96, 96, 114);
+    background-size: 100%;
+    transition: background 0s;
+  }
 
 .copyright {
     font-size: 14px;
@@ -145,10 +159,12 @@
     height: 20px;
 }
 
+@media screen and (min-width: 768px) {
     .item:hover {
         text-decoration: underline;
         cursor: pointer;
-        color: rgb(131, 137, 179);
+        color: #FF7D68;
+}
   }
 
 /* // Большие девайсы (большие десктопы, < 1200px) */
@@ -180,25 +196,6 @@
         margin-right: 100px;
     } */
 
-
-    .item:hover {
-        text-decoration: none;
-    }
-
-    .item {
-        background-position: center;
-        transition: background 0.6s;
-      }
-      .item:hover {
-        background: rgb(255, 255, 255) radial-gradient(circle, transparent 1%, rgb(255, 254, 254) 1%) center/15000%;
-        text-decoration: none;
-        color: rgba(94, 98, 130, 1);
-      }
-      .item:active {
-        background-color: rgb(220, 220, 220);
-        background-size: 100%;
-        transition: background 0s;
-      }
 }
 
 @media (max-width: 575.98px) {
@@ -208,8 +205,8 @@
 
     .item {
         font-size: 14px;
-        
     }
+    
     
     .blocks {
         grid-template-columns: 1fr 1fr 1fr;
