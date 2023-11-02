@@ -61,6 +61,8 @@
     letter-spacing: 0em;
     color: rgba(94, 98, 130, 1);
     margin-bottom: 12px;
+
+    width: max-content;
 }
 
 
@@ -143,11 +145,9 @@
     height: 20px;
 }
 
-@media screen and (min-width: 768px) {
     .item:hover {
         text-decoration: underline;
         cursor: pointer;
-    }
   }
 
 /* // Большие девайсы (большие десктопы, < 1200px) */
@@ -178,6 +178,25 @@
     /* .logo {
         margin-right: 100px;
     } */
+
+
+    .item:hover {
+        text-decoration: none;
+    }
+
+    .item {
+        background-position: center;
+        transition: background 0.8s;
+      }
+      .item:hover {
+        background: rgb(255, 255, 255) radial-gradient(circle, transparent 1%, rgb(255, 254, 254) 1%) center/15000%;
+        text-decoration: none;
+      }
+      .item:active {
+        background-color: rgb(200, 200, 200);
+        background-size: 100%;
+        transition: background 0s;
+      }
 }
 
 @media (max-width: 575.98px) {
@@ -187,6 +206,7 @@
 
     .item {
         font-size: 14px;
+        
     }
     
     .blocks {
@@ -226,6 +246,5 @@
     .subtitle {
         margin-top: 9px;
     }
-
 
 }

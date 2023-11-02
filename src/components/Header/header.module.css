@@ -86,7 +86,6 @@ option {
         border: white 2px solid;
     }
 
-@media screen and (min-width: 768px) {
     .list li:hover{
         text-decoration: underline solid 3px #DF6951;
         text-underline-offset: 10px;
@@ -107,8 +106,6 @@ option {
         color: white;
         border-radius: 20%;
     }
-
-  }
 
 
     /* // Средние девайсы («таблетки», < 992px)  */
@@ -255,5 +252,40 @@ option {
         display: block
     }
 
+    .list li {
+        background-position: center;
+        transition: background 0.8s;
+      }
+      .list li:hover {
+        background: rgb(255, 255, 255) radial-gradient(circle, transparent 1%, rgb(255, 255, 255) 1%) center/15000%;
+        text-decoration: none;
+      }
+      .list li:active {
+        background-color: rgb(209, 208, 206);
+        background-size: 100%;
+        transition: background 0s;
+      }
+
 }
 
+
+/* .list li:hover{
+    text-decoration: underline solid 3px #DF6951;
+    text-underline-offset: 10px;
+ }
+
+ .signup:hover{
+    background: linear-gradient(180deg, #FF946D 0%, #FF7D68 100%);
+    color: white;
+ }
+
+.login:hover{
+    text-decoration: underline solid 3px #DF6951;
+    text-underline-offset: 10px;
+ }
+
+ .select:hover {
+    background: linear-gradient(180deg, #FF946D 0%, #FF7D68 100%);
+    color: white;
+    border-radius: 20%;
+} */

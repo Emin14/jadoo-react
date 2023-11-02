@@ -178,15 +178,20 @@
   display: flex;
 }
 
-@media screen and (min-width: 768px) {
-    .playBtn:hover {
-        background: rgb(220, 40, 4);
-       }
+.playBtn:hover {
+    background: rgb(220, 40, 4);
+   }
 
-       .moreBtn:hover {
-        background: rgba(223, 105, 81, 1);
-    }
-  }
+   .moreBtn:hover {
+    background: rgba(223, 105, 81, 1);
+}
+
+
+
+
+/* @media screen and (min-width: 768px) {
+
+  } */
 
 /* // Большие девайсы (большие десктопы, < 1200px) */
 @media (max-width: 1199.98px) {
@@ -263,6 +268,22 @@
         right: 60px;
     }
 
+    .moreBtn {
+        background-position: center;
+        transition: background 0.8s;
+      }
+      .moreBtn:hover {
+        background: rgba(241, 165, 1, 1) radial-gradient(circle, transparent 1%, rgba(241, 165, 1, 1) 1%) center/15000%;
+      }
+      .moreBtn:active {
+        background-color: rgb(236, 205, 139);
+        background-size: 100%;
+        transition: background 0s;
+      }
+
+      .moreBtn:active {
+        transform: none;
+    }
 
 }
 
