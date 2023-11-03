@@ -1,10 +1,10 @@
 import { useTranslation } from 'react-i18next';
-import styles from './Footer.module.css';
 import instagram from '../../assets/img/Social-media/instagram1.svg';
 import facebook from '../../assets/img/Social-media/Facebook.svg';
 import twitter from '../../assets/img/Social-media/twitter.svg';
 import apple from '../../assets/img/apple.svg';
 import google from '../../assets/img/google-play.svg';
+import styles from './Footer.module.css';
 
 export default function Footer() {
   const { t } = useTranslation();

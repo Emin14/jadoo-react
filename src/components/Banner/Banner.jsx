@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import traveller from '../../assets/img/Traveller.png';
-import airplane from '../../assets/img/Airplane.svg';
 import playButton from '../../assets/img/Polygon1.svg';
 import styles from './Banner.module.css';
 
@@ -26,7 +25,7 @@ export default function Banner() {
       <div className={styles.leftBlock}>
         <div className={styles.bannerText}>
           <h5 className={styles.subtitle}>{t('banner.subtitle')}</h5>
-            <h3 className={styles.title}>{t('banner.title')}</h3>
+          <h3 className={styles.title}>{t('banner.title')}</h3>
           <p className={styles.text}>{t('banner.text')}</p>
           <div className={styles.play}>
             <button type="button" className={styles.moreBtn}>{t('banner.more')}</button>

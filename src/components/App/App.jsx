@@ -1,4 +1,3 @@
-import styles from'./App.module.css';
 import Header from '../Header/Header';
 import Banner from '../Banner/Banner';
 import Decore from '../Decore/Decore';
@@ -9,6 +8,7 @@ import Testimonials from '../Testimonials/Testimonials';
 import Brands from '../Brands/Brands';
 import Subscribe from '../Subscribe/Subscribe';
 import Footer from '../Footer/Footer';
+import styles from './App.module.css';
 
 function App() {
   return (

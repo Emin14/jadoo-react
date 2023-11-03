@@ -29,7 +29,6 @@
 .title {
     font-family: 'Volkhov', serif;
     position: relative;
-    /* font-size: 84px; */
     font-size: 5.2rem;
     font-weight: 700;
     line-height: 89px;
@@ -59,7 +58,6 @@
     line-height: 30px;
     letter-spacing: 0em;
     margin-bottom: 34px;
-    /* width: 477px; */
     width: 76%;
     z-index: 2;
 }
@@ -94,14 +92,12 @@
     background-size: contain;
 }
 
-
 .traveller {
     position: relative;
     left: 0; 
     z-index: 1;
     width: 100%;
 }
-
 
 .play {
     display: flex;
@@ -132,9 +128,6 @@
 }
 
 
-
-
-
 .playBtn {
  width: 52px;
  height: 52px;
@@ -158,9 +151,7 @@
     line-height: 26px;
     letter-spacing: 0em;
     color: rgba(104, 109, 119, 1);
-
 }
-
 
 .popup {
     width: 100vw;
@@ -186,8 +177,8 @@
 
 
 @media screen and (min-width: 768px) {
-      .moreBtn:hover {
-    background: rgba(223, 105, 81, 1) radial-gradient(circle, transparent 1%, rgba(223, 105, 81, 1) 1%) center/15000%;
+    .moreBtn:hover {
+        background: rgba(223, 105, 81, 1) radial-gradient(circle, transparent 1%, rgba(223, 105, 81, 1) 1%) center/15000%;
   }
   
   .moreBtn:active {
@@ -195,7 +186,6 @@
     background-size: 100%;
     transition: background 0s;
   }
-
   }
 
 /* // Большие девайсы (большие десктопы, < 1200px) */
@@ -236,14 +226,10 @@
         top: 60px;
         right: 10px;
     }
-
-
-   
 }
 
 /* // Малые девайсы («ландшафтные», < 768px) */
 @media (max-width: 767.98px) {
-
     .wrapper {
         padding-top: 86px;
     }
@@ -286,19 +272,16 @@
 }
 
 @media (max-width: 575.98px) {
-
     .traveller {
         width: 200px;
         top: 220px;
         left: -150px;
     }
 
-
     .leftBlock {
         padding-top: 24px;
         width: 100%;
         text-align: center;
-
     } 
 
     .bannerText {

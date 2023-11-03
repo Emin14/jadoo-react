@@ -26,7 +26,6 @@
 
 .list {
     display: flex;
-    /* column-gap: 45px; */
     column-gap: 3vw;
 }
 
@@ -51,37 +50,23 @@
 }
 
 .img {
-    /* object-fit: none;
-    width: 315px;
-    height:457px;
-    width: 100%;
-    object-position: 50% top; */
     border-radius: 0 0 24px 24px;
-
     position: absolute;
-    /* transform:translate(-50%,-50%); */
     width: 473px;
-right: -25%;
-top: 0;
-    /* height:457px; */
+    right: -25%;
+    top: 0;
     object-fit:cover;
 }
 
 
 .bottom {
     width: 101%;
-
     position: absolute;
     bottom: 0;
-
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
     background-color: rgba(255, 255, 255, 1);
-
     text-align: start;
-    /* padding: 27px 25px 42px 20px;
-    padding: 1.68rem 1.56rem 2.62rem 1.25rem; */
-    /* padding: 1.9vw 1.8vw 2.9vw 1.4vw; */
     padding: 8.5% 7.6% 13.3% 6.3%;
     color: rgba(94, 98, 130, 1);
     height: 29%;
@@ -92,7 +77,6 @@ top: 0;
 .placePrice {
     display: flex;
     justify-content: space-between;
-
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
     font-weight: 500;
@@ -134,7 +118,6 @@ top: 0;
         transition: 0.3s;
     }
   }
-
 
 /* // Большие девайсы (большие десктопы, < 1200px) */
 @media (max-width: 1199.98px) {
@@ -221,6 +204,4 @@ top: 0;
     .bottom {
         padding: 3%;
     }
-
-
 }

@@ -29,15 +29,12 @@
     letter-spacing: 0em;
     color: rgba(20, 24, 62, 1);
     margin-bottom: 31px;
-    /* width: 511px; */
     width: 50vw;
     max-width: 511px;
 }
 
 .list {
-    /* max-width: 395px; */
     width: 29rem;
-    /* width: 59%; */
     min-width: 230px;
     border-radius: 13px;
 }
@@ -63,13 +60,11 @@
 
 .rightBlock {
     width: 485px;
-    /* height: 459px; */
     position: relative;
 }
 
 .card {
     width: 370px;
-    /* height: 400px; */
     padding: 20px 25px;
     padding: 1.25rem 1.56rem 1.93rem 1.56rem;
     box-shadow: 0px 100px 80px 0px rgba(0, 0, 0, 0.1);
@@ -185,7 +180,6 @@
 }
 
 
-
 @media screen and (min-width: 768px) {
     .heart:hover path{
         fill: rgb(179, 7, 7);
@@ -221,11 +215,6 @@
         right: -14px;
         width: 213px;
     }
-
-    /* .list {
-        height: 448px;
-    } */
-    
 }
 
 @media (max-width: 575.98px) {
@@ -243,19 +232,16 @@
     }
 
     .list {
-        /* height: 296px; */
         width: 100%;
 }
 
-.title {
-    width: 100%;
-}
+    .title {
+        width: 100%;
+    }
 
-.notification {
-    bottom: 50px;
-    right: -50px;
-    width: 213px;
-}
-
-
+    .notification {
+        bottom: 50px;
+        right: -50px;
+        width: 213px;
+    }
 }

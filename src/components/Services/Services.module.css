@@ -31,9 +31,7 @@
 }
 
 .item {
-    /* height: 314px; */
     width: 190px;
-    /* padding: 45px; */
     margin-top: 66px;
     position: relative;
     transition: 0.2s;
@@ -118,7 +116,6 @@
 
     .item {
         width: 170px;
-        /* width: 245px; */
     }
 
     .list {
@@ -136,18 +133,4 @@
     .title {
         height: 46px;
     }
-
-/* 
-    .item {
-        width: 160px;
-    } */
-
-
-    /* .imageWrapper{
-        height: 135px;
-    }
-
-    .imageWrapper img{
-        width: 80%;
-    } */
 }

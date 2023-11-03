@@ -24,42 +24,20 @@
     line-height: 4rem;
     letter-spacing: 0em;
     color: rgba(20, 24, 62, 1);
-    /* width: 45vw; */
     max-width: 409px;
     min-width: 130px;
 }
-
-
-/* .slider {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 669px;
-  height: 356px;
-  border-radius: 10px;
-} */
-
 
 .modal {
   text-align: start;
   font-family: 'Poppins', sans-serif;
   color: rgba(94, 98, 130, 1);
-  /* background-color: rgb(195, 244, 227); */
-
   width: 100%;
   height: 100%;
-
-  /* width: 504px;
-  height: 245px; */
 }
-
-
-
 
 .textBlock {
   border-radius: 10px;
-  /* background-color: rgba(255, 255, 255, 1); */
-  /* box-shadow: 0px 100px 80px 0px rgba(0, 0, 0, 0.05); */
   padding: 0 68px 34px 34px;
   padding: 0 4.7vw 2.3vw 4.7vw;
 }

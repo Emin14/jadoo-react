@@ -1,19 +1,5 @@
-
-  
-  .app  {
+.app  {
     max-width: 1230px;
     margin: 0 auto;
     padding: 0 15px;
   }
-  
-  /* .main {
-    width: 100%;
-    padding: 0px 15px 0 15px; 
-  }
-  
-  @media (max-width: 767.98px) {
-    .main {
-      padding-top: 100px;
-    }
-  }
-   */

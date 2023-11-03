@@ -14,11 +14,8 @@
     column-gap: 80px;
     column-gap: 5vw;
     margin-bottom: 5.2rem;
-
     display: grid;
-
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    /* Будет создано 3 ряда */
     grid-template-rows: 1fr;
 }
 
@@ -55,18 +52,17 @@
 .item {
     font-size: 18px;
     font-weight: 500;
-    line-height: 22px;
-    line-height: 1.37rem;
     line-height: clamp(14px, 1.37rem, 22px);
     letter-spacing: 0em;
     color: rgba(94, 98, 130, 1);
     margin-bottom: 12px;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    cursor: pointer;
 }
 
-  .item:active {
-    color: rgb(61, 155, 250)
+.item:active {
+    color: rgb(67, 151, 235);
   }
-
 
 .socials {
     display: flex;
@@ -171,24 +167,16 @@
 
 @media screen and (min-width: 768px) {
     .item:hover {
-        text-decoration: underline;
-        cursor: pointer;
-        color: rgb(61, 155, 250)
+        color: rgb(67, 151, 235);
+        transition: 0.3s;
 }
   }
 
-/* // Большие девайсы (большие десктопы, < 1200px) */
-@media (max-width: 1199.98px) {
-    /* .logo {
-        margin-right: 170px;
-    } */
-}
 
 /* // Средние девайсы («таблетки», < 992px)  */
 @media (max-width: 991.98px) {
     .blocks {
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        /* Будет создано 3 ряда */
         grid-template-rows: 2fr;
     }
 
@@ -200,14 +188,6 @@
     }
 }
 
-/* // Малые девайсы («ландшафтные», < 768px) */
-@media (max-width: 767.98px) {
-    /* .logo {
-        margin-right: 100px;
-    } */
-
-}
-
 @media (max-width: 575.98px) {
     .listTitle {
         font-size: 18px;
@@ -217,11 +197,9 @@
         font-size: 14px;
     }
     
-    
     .blocks {
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 2fr;
-        /* justify-items: center; */
     }
 
     .logo {
@@ -229,8 +207,6 @@
         grid-row: 2 / 2;
         margin-top: 0;
         padding-right: 10px;
-        /* border-right: 1px solid rgb(226, 226, 224); */
-        /* border-top: 1px solid rgb(226, 226, 224); */
     }
 
     .title {
@@ -241,7 +217,6 @@
         justify-content: center;
         gap: 16px;
         margin-bottom: 16px;
-        /* border-top: 1px solid rgb(226, 226, 224); */
     }
 
     .socialsWrapper {

@@ -21,7 +21,7 @@
 }
 
 
-.account {
+.login, .signup {
     font-family: 'Open Sans', sans-serif;
     font-size: 17px;
     font-weight: 500;
@@ -52,10 +52,9 @@
     transition: background 0s;
   }
 
-
-
 .logo {
     margin-right: 20px;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 .select {
@@ -86,48 +85,42 @@ option {
     padding: 0 10px;
 }
 
-    .account2 {
-        display: flex;
-        column-gap: 50px;
-        column-gap: 3.5vw;
-    }
+.account {
+    display: flex;
+    column-gap: 50px;
+    column-gap: 3.5vw;
+}
 
-    .user {
-        display: none;
-        padding: 5px;
-        background-color: rgb(236, 176, 46);
-        border-radius: 48%;
-        border: white 2px solid;
-    }
-
-
+.user {
+    display: none;
+    padding: 5px;
+    background-color: rgb(236, 176, 46);
+    border-radius: 48%;
+    border: white 2px solid;
+}
 
 
 @media screen and (min-width: 768px) {
-.list li:hover{
-    text-decoration: underline solid 3px #DF6951;
-    text-underline-offset: 10px;
- }
+    .list li:hover{
+        text-decoration: underline solid 3px #DF6951;
+        text-underline-offset: 10px;
+     }
 
+    .login:hover{
+        text-decoration: underline solid 3px #DF6951;
+        text-underline-offset: 10px;
+     }
 
+     .select:hover {
+        background-color: rgb(236, 176, 46);
+        color: white;
+        border-radius: 20%;
+    }
 
-.login:hover{
-    text-decoration: underline solid 3px #DF6951;
-    text-underline-offset: 10px;
- }
- .select:hover {
-    /* background: linear-gradient(180deg, #FF946D 0%, #FF7D68 100%); */
-    background-color: rgb(236, 176, 46);
-    color: white;
-    border-radius: 20%;
+    .list li:active, .login:active {
+        color: rgb(67, 151, 235);
+    }
 }
-
-.list li:active, .login:active {
-    color: rgb(61, 155, 250)
-}
-
-}
-
 
     /* // Средние девайсы («таблетки», < 992px)  */
 @media (max-width: 991.98px) {
@@ -137,7 +130,6 @@ option {
         grid-template-rows: 1fr 1fr;
         column-gap: 20px;
         row-gap: 10px;
-        /* justify-items: center; */
         justify-content: center;
         right: 0;
     }
@@ -152,14 +144,12 @@ option {
     .select {
         grid-column: 3 / 3;
         justify-self: center;
-        /* grid-row: 2 / 2; */
     }
 
 }
 
 /* // Малые девайсы («ландшафтные», < 768px) */
 @media (max-width: 767.98px) {
-
     .hamburger {
         display: block;
         z-index: 10;
@@ -177,35 +167,9 @@ option {
         width: 100%;
         z-index: 5;
         background-color: rgb(180, 216, 253);
-        padding: 12px 0;
+        padding: 14px 0;
         right: 0;
     }
-
-    /* .wrapper.active {
-        height: 100vh;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 100px 1fr;
-        align-items: start;
-    } */
-
-    /* .wrapper.active .hamburger {
-        grid-column: 1 / 2;
-        justify-self: start;
-    }
-
-    .wrapper.active .logo {
-        grid-column:2 / 3;
-        justify-self: end;
-    }
-
-    .wrapper.active .menu {
-        display: flex;
-        flex-direction:column-reverse;
-        row-gap: 200px;
-        grid-column:1/ 3;
-        grid-row: 2 / 3;
-    } */
 
     .menu,  .menu button, .menu .select{
         font-size: 34px;
@@ -228,17 +192,10 @@ option {
         width: 100%;
     }
 
-    .account2 {
+    .account {
         display: none
 
     }
-
-    /* .account2 button, .account2 .select{
-        font-size: 40px;
-        font-weight: 400;
-
-        border: none;
-    } */
 
     .menu {
         flex-direction: column-reverse;
@@ -289,25 +246,3 @@ option {
       }
 
 }
-
-
-/* .list li:hover{
-    text-decoration: underline solid 3px #DF6951;
-    text-underline-offset: 10px;
- }
-
- .signup:hover{
-    background: linear-gradient(180deg, #FF946D 0%, #FF7D68 100%);
-    color: white;
- }
-
-.login:hover{
-    text-decoration: underline solid 3px #DF6951;
-    text-underline-offset: 10px;
- }
-
- .select:hover {
-    background: linear-gradient(180deg, #FF946D 0%, #FF7D68 100%);
-    color: white;
-    border-radius: 20%;
-} */

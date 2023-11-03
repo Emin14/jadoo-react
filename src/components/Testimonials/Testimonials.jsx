@@ -6,12 +6,10 @@ import { useTranslation } from 'react-i18next';
 import { A11y, EffectCards } from 'swiper/modules';
 
 import SwiperNavButtons from '../SwiperNavButtons/SwiperNavButtons';
-
 import mike from '../../assets/img/Mike.jpg';
 import tagiev from '../../assets/img/tagiev.jpg';
-
 import styles from './Testimonials.module.css';
-import './index.css';
+import './testimonials.css';
 
 export default function Testimonials() {
   const { t } = useTranslation();
@@ -31,8 +29,6 @@ export default function Testimonials() {
           navigation
           direction="vertical"
           modules={[A11y, EffectCards]}
-        // spaceBetween={100}
-        // slidesPerView={1}
           className="mySwiper"
         >
           {data.map((item) => (
@@ -48,31 +44,9 @@ export default function Testimonials() {
               </div>
             </SwiperSlide>
           ))}
-          {/* <SwiperSlide className={styles.resSlide}>
-          <div className={styles.modal}>
-            <img src={mike} alt="" />
-            <div className={styles.textBlock}>
-              <p className={styles.modalText}>{t('testimonials.data[0].text')}</p>
-              <p className={styles.modalName}>{t('testimonials.data[0].author')}</p>
-              <p className={styles.modalPlace}>{t('testimonials.data[0].place')}</p>
-            </div>
-
-          </div>
-        </SwiperSlide>
-        <SwiperSlide className={styles.resSlide}>
-          <div className={styles.modal}>
-            <img src={tagiev} alt="" />
-            <div className={styles.textBlock}>
-            <p className={styles.modalText}>{t('testimonials.data[1].text')}</p>
-              <p className={styles.modalName}>{t('testimonials.data[1].author')}</p>
-              <p className={styles.modalPlace}>{t('testimonials.data[1].place')}</p>
-            </div>
-          </div>
-        </SwiperSlide> */}
           <SwiperNavButtons />
         </Swiper>
       </div>
-
     </div>
   );
 }
