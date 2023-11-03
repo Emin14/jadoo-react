@@ -20,6 +20,10 @@
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
+.list li {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
 
 .login, .signup {
     font-family: 'Open Sans', sans-serif;
