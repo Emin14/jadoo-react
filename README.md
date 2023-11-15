@@ -7,7 +7,7 @@ Travel website in two languages.
 
 ## Deployment
 
-https://jadoo-react-six.vercel.app/
+https://jadoo-react-5qut.vercel.app/
 
 ## Preview
 
